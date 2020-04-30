@@ -11,7 +11,7 @@ Starts from structures in SDF or smiles format and produces:
 
 The parameters selected by default are suggested for use in OPERA.
 
-All configuration required is avaialble in the input component. The workflow will then adapt and run autonomously.
+All configuration required is available in the input component. The workflow will then adapt and run autonomously.
 
 The workflow can also be executed in batch mode using the command line:
 <knime path>\knime.exe -reset -nosplash -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="knime-workspace/QSAR-ready_2.5.6" -workflow.varaiable=cmd_input,"<input path>\inputfile",String
