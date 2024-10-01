@@ -25,3 +25,11 @@ In OPERA, the command runs as follows:
 
 “knime -reset -nosplash -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=[knime_workspace/QSAR-ready_2.5.10] -workflow.variable=cmd_input,[input_file]”
 with knime_workspace being the path for the workflow, QSAR-ready_2.5.10 being the latest version of the workflow and the input_file as the path to the structure file to be processed. For additional information about the structure of the batch mode commands, refer to the FAQ on the KNIME website (https://www.knime.com/). 
+
+References:
+
+[1] Mansouri, K. et al. J Cheminform (2024) https://doi.org/10.1186/s13321-024-00814-3
+
+[2] Mansouri K. et al. J Cheminform (2018) https://doi.org/10.1186/s13321-018-0263-1.
+
+
