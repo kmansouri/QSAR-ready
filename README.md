@@ -14,7 +14,7 @@ The parameters selected by default are suggested for use in OPERA.
 All configuration required is available in the input component. The workflow will then adapt and run autonomously.
 
 The workflow can also be executed in batch mode using the command line:
-[knime path]\knime -reset -nosplash -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="[knime path]\knime-workspace\QSAR-ready_2.5.6" -workflow.varaiable=cmd_input,"[input path]\inputfile",String
+[knime path]\knime -reset -nosplash -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="[knime path]\knime-workspace\QSAR-ready_[v]" -workflow.varaiable=cmd_input,"[input path]\inputfile",String
 
 The general command to run the workflow in command line is as follows:
 
@@ -23,8 +23,8 @@ with the options being the specific workflow to be executed and populating the g
 
 In OPERA, the command runs as follows:
 
-“knime -reset -nosplash -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=[knime_workspace/QSAR-ready_2.5.10] -workflow.variable=cmd_input,[input_file]”
-with knime_workspace being the path for the workflow, QSAR-ready_2.5.10 being the latest version of the workflow and the input_file as the path to the structure file to be processed. For additional information about the structure of the batch mode commands, refer to the FAQ on the KNIME website (https://www.knime.com/). 
+“knime -reset -nosplash -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=[knime_workspace/QSAR-ready_[v]] -workflow.variable=cmd_input,[input_file]”
+with knime_workspace being the path for the workflow, QSAR-ready_[v] being the latest version of the workflow and the input_file as the path to the structure file to be processed. For additional information about the structure of the batch mode commands, refer to the FAQ on the KNIME website (https://www.knime.com/). 
 
 References:
 
